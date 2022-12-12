@@ -1,0 +1,126 @@
+@font-face {
+  font-family: Inter;
+  src: url(./Assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: Inter-Bold;
+  src: url(./Assets/fonts/static/Inter-Black.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Inter";
+}
+.headline-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.typography-headline-small {
+  /* width: 86px; no se le puede dar ancho porque sino no se alinea en el centro */
+  height: 24px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: #3056d3;
+
+  display: block;
+  text-transform: capitalize;
+  margin-top: 120px;
+}
+
+.typography-headline {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2e2e;
+  display: block;
+  margin-top: 8px;
+}
+
+p {
+  color: #637381;
+  font-weight: 400;
+  position: relative;
+  margin: 0;
+}
+
+.compare-detail > p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.headline-description-wrapper {
+   height: 59px;
+   display: block;
+   margin-top: 15px;
+}
+
+.headline-description {
+   font-size: 15px;
+   line-height: 25px;
+   text-align: center;
+   
+   width: 480px;
+   display: flex;
+   justify-content: center;
+}
+
+.compare {
+   justify-content: center;
+   width: 100%;
+   display: flex;
+   gap: 30px;
+}
+
+article {
+   width: 370px;
+}
+
+time {
+   margin-top: 30px;
+   background-color: #3056d3;
+   border-radius: 5px;
+   font-weight: 600;
+   line-height: 24px;
+   font-size: 12px;
+   color: #ffffff;
+   letter-spacing: 0.5px;
+   padding: 4px 17px;
+   display:inline-block;
+}
+
+.compare-detail {
+   position: relative;
+   margin-top: 22px;
+   margin-bottom: 15px;
+   width: 370px;
+   height: 56px;
+}
+
+h3 {
+
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #212b36;
+  margin: 0;
+}
