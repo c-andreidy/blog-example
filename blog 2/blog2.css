@@ -1,0 +1,177 @@
+/*GENERAL DESIGN  */
+@font-face {
+  font-family: Inter;
+  src: url(.blogs/assets/fonts/static/Inter-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Inter";
+}
+
+small {
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #3056d3;
+}
+
+/*HEADER DESIGN*/
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 80px;
+  margin-top: 60px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.typography-headline-small {
+  height: 24px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #3056d3;
+  display: block;
+  text-transform: capitalize;
+}
+
+.typography-headline {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2e2e;
+  display: block;
+  margin-top: 8px;
+}
+
+p {
+  color: #637381;
+  font-weight: 400;
+  position: relative;
+  margin: 0;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 12px 0 29px 0;
+}
+
+.headline-description-wrapper {
+  height: 59px;
+  display: block;
+  margin-top: 15px;
+}
+
+.headline-description {
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+
+  width: 480px;
+  display: flex;
+  justify-content: center;
+}
+
+/* MAIN GENERAL DESIGN & useful elements */
+main {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  gap: 30px;
+  width: 100%;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+  gap: 30px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #212b36;
+  margin: 0;
+  padding-top: 7px;
+}
+
+.readmore {
+  display: inline;
+  text-transform: capitalize;
+  height: 75px;
+}
+
+.readmore a {
+  text-decoration: none;
+  color: #637381;
+}
+
+.readmore a img {
+  left: 15px;
+  position: relative;
+}
+
+/*DISEÑO DEL COMPARATION CONTAINER */
+.comparition-container .card {
+  background-color: #f4f7ff;
+  width: 770px;
+  height: 260px;
+  display: inline-flex;
+}
+
+.comparition-container .card > img {
+  width: 370px;
+  height: 100%;
+}
+.card-detail {
+  padding: 30px;
+  width: 300px;
+}
+
+/*PROMOTION CONTAINER DESIGN */
+.promotion-container {
+  background-color: #3056d3;
+  width: 370px;
+  gap: 25px;
+  padding: 30px;
+}
+
+.promotion-container > .shape {
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+
+.promotion-container h3,
+.promotion-container small {
+  color: #ffffff;
+}
+
+.promotion-container .readmore a,
+.promotion-container .readmore a img {
+  color: #efefef;
+}
+
+.promotion-container p {
+  color: #ebebeb;
+}
+
+.promotion-line {
+  border-top: 1px solid rgba(255, 255, 255, 0.29);
+}

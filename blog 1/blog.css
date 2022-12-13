@@ -1,10 +1,10 @@
 @font-face {
   font-family: Inter;
-  src: url(./Assets/fonts/static/Inter-Regular.ttf);
+  src: url(.blogs/assets/fonts/static/Inter-Regular.ttf);
 }
 @font-face {
   font-family: Inter-Bold;
-  src: url(./Assets/fonts/static/Inter-Black.ttf);
+  src: url(.blogs/assets/fonts/static/Inter-Black.ttf);
 }
 
 body {
@@ -28,7 +28,6 @@ h2 {
   border: 0;
 }
 .typography-headline-small {
-  /* width: 86px; no se le puede dar ancho porque sino no se alinea en el centro */
   height: 24px;
 
   font-weight: 600;
@@ -62,7 +61,7 @@ p {
   margin: 0;
 }
 
-.compare-detail > p {
+.comparition-container-detail > p {
   font-size: 16px;
   line-height: 28px;
 }
@@ -83,7 +82,7 @@ p {
    justify-content: center;
 }
 
-.compare {
+.comparition-container {
    justify-content: center;
    width: 100%;
    display: flex;
@@ -107,7 +106,7 @@ time {
    display:inline-block;
 }
 
-.compare-detail {
+.comparition-container-detail {
    position: relative;
    margin-top: 22px;
    margin-bottom: 15px;
