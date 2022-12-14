@@ -1,0 +1,65 @@
+@font-face {
+   font-family: Inter;
+   src: url(.blogs/assets/fonts/static/Inter-Regular.ttf);
+ }
+ @font-face {
+   font-family: Inter-Bold;
+   src: url(.blogs/assets/fonts/static/Inter-Black.ttf);
+ }
+ 
+ body {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-family: "Inter";
+ }
+
+
+.bg-blue {
+   background-color: #3056D3;
+}
+.bg-lightblue {
+   background-color: #E9F9FF;
+}
+.bg-lightgray {
+   background-color: #F2F5FC;
+   ;
+}
+
+.fc-blue {
+   color: #3056D3;
+}
+.fc-gray {
+   color: #637381;
+}
+.fc-lightgray {
+   color: #EFEFEF;
+}
+.fc-white {
+   color: #FFFFFF;
+}
+
+h2 {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+h3 {
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 32px;
+   color: #212b36;
+   margin: 0;
+}
+p {
+   color: #637381;
+   font-weight: 400;
+   position: relative;
+   margin: 0;
+   font-size: 16px;
+   line-height: 25px;
+ }
+
+ a{ text-decoration: none;}
+
+ small {text-transform: capitalize;}

@@ -1,23 +1,4 @@
-/*GENERAL DESIGN  */
-@font-face {
-  font-family: Inter;
-  src: url(.blogs/assets/fonts/static/Inter-Regular.ttf);
-}
 
-body {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-family: "Inter";
-}
-
-small {
-  letter-spacing: 0.5px;
-  line-height: 20px;
-  font-size: 14px;
-  text-transform: capitalize;
-  color: #3056d3;
-}
 
 /*HEADER DESIGN*/
 header {
@@ -30,18 +11,13 @@ header {
   margin-top: 60px;
 }
 
-h2 {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
+
 .typography-headline-small {
   height: 24px;
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
   text-align: center;
-  color: #3056d3;
   display: block;
   text-transform: capitalize;
 }
@@ -52,18 +28,11 @@ h2 {
   line-height: 45px;
   text-align: center;
   text-transform: capitalize;
-  color: #2e2e2e;
   display: block;
   margin-top: 8px;
 }
 
 p {
-  color: #637381;
-  font-weight: 400;
-  position: relative;
-  margin: 0;
-  font-size: 16px;
-  line-height: 25px;
   padding: 12px 0 29px 0;
 }
 
@@ -103,11 +72,6 @@ main {
 }
 
 h3 {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  color: #212b36;
-  margin: 0;
   padding-top: 7px;
 }
 
@@ -117,10 +81,7 @@ h3 {
   height: 75px;
 }
 
-.readmore a {
-  text-decoration: none;
-  color: #637381;
-}
+
 
 .readmore a img {
   left: 15px;
@@ -129,7 +90,6 @@ h3 {
 
 /*DISEÑO DEL COMPARATION CONTAINER */
 .comparition-container .card {
-  background-color: #f4f7ff;
   width: 770px;
   height: 260px;
   display: inline-flex;
@@ -146,7 +106,6 @@ h3 {
 
 /*PROMOTION CONTAINER DESIGN */
 .promotion-container {
-  background-color: #3056d3;
   width: 370px;
   gap: 25px;
   padding: 30px;
@@ -158,19 +117,6 @@ h3 {
   position: absolute;
 }
 
-.promotion-container h3,
-.promotion-container small {
-  color: #ffffff;
-}
-
-.promotion-container .readmore a,
-.promotion-container .readmore a img {
-  color: #efefef;
-}
-
-.promotion-container p {
-  color: #ebebeb;
-}
 
 .promotion-line {
   border-top: 1px solid rgba(255, 255, 255, 0.29);

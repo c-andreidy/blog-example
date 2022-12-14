@@ -1,0 +1,21 @@
+/*GENERAL DESIGN  */
+@font-face {
+   font-family: Inter;
+   src: url(.blogs/assets/fonts/static/Inter-Regular.ttf);
+ }
+ 
+ body {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-family: "Inter";
+ }
+ 
+ small {
+   letter-spacing: 0.5px;
+   line-height: 20px;
+   font-size: 14px;
+   text-transform: capitalize;
+   color: #3056d3;
+ }
+ 

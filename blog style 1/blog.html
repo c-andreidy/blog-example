@@ -3,30 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="This a model blog about recent news" />
-    <meta name="keywords" content="blog, example, begginer, html, css" />
+    <meta name="keywords" content="blog, example, html, css" />
     <meta name="author" content="Carla Sanchez" />
     <meta name="viewport" content="width=device-width, initial-escale=1.0" />
     <link href="./blog.css" rel="stylesheet" type="text/css" />
+    <link href="../utilities/style.css" rel="stylesheet" type="text/css" />
     <link href="/assets/fonts/Inter-VariableFont_slnt,wght.ttf" />
   </head>
   <body>
-    <section class="container">
-      <div class="headline-container">
-        <h2>
-          <span class="typography-headline-small">our blogs</span>
-          <span class="typography-headline">our recent news</span>
-        </h2>
-        <div class="headline-description-wrapper">
-          <p class="headline-description">
-            There are many variations of passages of Lorem Ipsum available but
-            the majority have suffered alteration in some form.
-          </p>
-        </div>
+    <header>
+      <h2>
+        <span class="typography-headline-small fc-blue">our blogs</span>
+        <span class="typography-headline fc-gray">our recent news</span>
+      </h2>
+      <div class="headline-description-wrapper">
+        <p class="headline-description">
+          There are many variations of passages of Lorem Ipsum available but the
+          majority have suffered alteration in some form.
+        </p>
       </div>
+    </header>
+    <main>
       <section class="comparition-container">
         <article>
           <img src="../assets/Blog Image.jpg" class="comparition-container-image" />
-          <time datetime="2023-12-22">
+          <time class="bg-blue fc-white" datetime="2023-12-22">
             Dec 22, 2023
           </time>
           <div class="comparition-container-detail">
@@ -39,7 +40,7 @@
         </article>
         <article>
           <img src="../assets/Blog Image (1).jpg" class="comparition-container-image" />
-          <time datetime="2023-03-15">
+          <time class="bg-blue fc-white"  datetime="2023-03-15">
             Mar 15, 2023
           </time>
           <div class="comparition-container-detail">
@@ -52,7 +53,7 @@
         </article>
         <article>
           <img src="../assets/Blog Image (2).jpg" class="comparition-container-image" />
-          <time datetime="2023-01-05">
+          <time class="bg-blue fc-white" datetime="2023-01-05">
             Jan 05, 2023
           </time>
           <div class="comparition-container-detail">
@@ -64,6 +65,6 @@
           </div>
         </article>
       </section>
-    </section>
+    </main>
   </body>
 </html>
