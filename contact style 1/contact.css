@@ -1,21 +1,159 @@
-/*GENERAL DESIGN  */
+/* GENERAL */
 @font-face {
-   font-family: Inter;
-   src: url(.blogs/assets/fonts/static/Inter-Regular.ttf);
+  font-family: Inter;
+  src: url(.blogs/assets/fonts/static/Inter-Regular.ttf);
+}
+
+main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.card{
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* CONTACT US header */
+.contactus {
+  gap: 40px;
+  margin: 135px 109px 0 0;
+}
+
+small {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+h2 {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 45px;
+}
+
+
+p {
+  width: 505px;
+  line-height: 27px;
+}
+
+
+/*CONTACT US card*/
+
+h3 {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+article {
+  display: flex;
+}
+.icon {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  margin-right: 24px;
+  border-radius: 5px;
+}
+
+.icon-svg {
+  width: 24px;
+}
+
+.contactus-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.contactus-info p {
+  width: 225px;
+  line-height: 25px;
+}
+
+/* MESSAGE card*/
+.message-container {
+  position: relative;
+  margin-top:93px;
+  /* width: 470px;
+  height: 530px; */
+
+}
+.figure {
+  width: 105.67px;
+  height: 133.67px;
+  position: absolute;
+  z-index: 50;
+}
+
+#top-figure {
+top: 117px;
+right: 0;
+}
+
+#bottom-figure {
+bottom: 0;
+}
+
+#oval-figure {
+  width: 100px;
+  height: 100px;
+  right: 0px;
+}
+
+.message-card {
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  width: 470px;
+  height: 530px;
+  box-shadow: 0px 4px 18px 0px #00000012;
+  z-index: 100;
+  margin: 54px 50px 18.33px 17.67px;
+  background-color: #ffffff;
+}
+
+
+form {
+  width: 370px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-direction: column;
+  margin: 50px;
+
+}
+input, textarea {
+  height: 50px;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  padding: 0;
+}
+
+input::placeholder, textarea::placeholder{
+  color: #637381;
+  padding-left: 25px;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Inter;
  }
- 
- body {
-   margin: 0;
-   padding: 0;
-   border: 0;
-   font-family: "Inter";
- }
- 
- small {
-   letter-spacing: 0.5px;
-   line-height: 20px;
-   font-size: 14px;
-   text-transform: capitalize;
-   color: #3056d3;
- }
- 
+
+textarea {
+  height: 130px;
+  padding-top: 15px;
+}
+
+[type="submit"] {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 15px;
+}

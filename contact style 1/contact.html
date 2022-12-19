@@ -6,10 +6,76 @@
     <meta name="keywords" content="contact card, page elements, html, css" />
     <meta name="author" content="Carla Sanchez" />
     <meta name="viewport" content="width=device-width, initial-escale=1.0" />
-    <link href="./blog.css" rel="stylesheet" type="text/css" />
+    <link href="./contact.css" rel="stylesheet" type="text/css" />
+    <link href="../utilities/style.css" rel="stylesheet" type="text/css" />
     <link href="/assets/fonts/Inter-VariableFont_slnt,wght.ttf" />
   </head>
   <body>
+    <main>
+      <section class="card contactus">
+        <header>
+          <small class="fc-blue">contact us</small>
+          <h2>get in touch with us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim adiqua
+            minim veniam quis nostrud exercitation ullamco
+          </p>
+        </header>
 
+        <article>
+          <div class="icon bg-lightgray">
+            <img class="fc-blue icon-svg" src="../assets/home-icon.svg" />
+          </div>
+          <div class="contactus-info">
+            <h3>our location</h3>
+            <p>99 S.t Jomblo Park Pekanbaru 28292. Indonesia</p>
+          </div>
+        </article>
+        
+        <article>
+          <div class="icon bg-lightgray">
+            <img class="fc-blue icon-svg" src="../assets/phone-icon.svg" />
+          </div>
+          <div class="contactus-info">
+            <h3>phone number</h3>
+            <p>(+62)81 414 257 9980</p>
+          </div>
+        </article>
+        
+        <article>  
+          <div class="icon bg-lightgray">
+            <img class="fc-blue icon-svg" src="../assets/message-icon.svg" />
+          </div>
+          <div class="contactus-info">
+            <h3>email address</h3>
+            <p>info@yourdomain.com</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="card message-container">
+        <img id="oval-figure" class="figure" src="../assets/Oval.svg" />
+        <img
+          id="top-figure"
+          class="figure"
+          src="../assets/Dotted Shape-1.svg"
+        />
+        <img
+          id="bottom-figure"
+          class="figure"
+          src="../assets/Dotted Shape-2.svg"
+        />
+        <div class="message-card">
+          <form>
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Your Email" />
+            <input type="phone" placeholder="Your Phone" />
+            <textarea placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="bg-blue fc-white"/>
+          </form>
+        </div>
+      </section>
+    </main>
   </body>
-  </html>
+</html>
