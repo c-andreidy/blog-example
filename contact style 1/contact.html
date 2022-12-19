@@ -22,32 +22,40 @@
             minim veniam quis nostrud exercitation ullamco
           </p>
         </header>
-        <div class="contactus-info">
-          <div class="icon bg-lightgray">
-            <img class="fc-blue" src="../assets/home-icon.svg" />
-          </div>
-          <h3>our location</h3>
-          <p>99 S.t Jomblo Park Pekanbaru 28292. Indonesia</p>
-        </div>
-        <div class="contactus-info">
-          <div class="icon bg-lightgray">
-            <img class="fc-blue" src="../assets/phone-icon.svg" />
-          </div>
-          <h3>phone number</h3>
-          <p>(+62)81 414 257 9980</p>
-        </div>
-        <div class="contactus-info">
-          <div class="icon bg-lightgray">
-            <img class="fc-blue" src="../assets/message-icon.svg" />
-          </div>
 
-          <h3>email address</h3>
-          <p>info@yourdomain.com</p>
-        </div>
+        <article>
+          <div class="icon bg-lightgray">
+            <img class="fc-blue icon-svg" src="../assets/home-icon.svg" />
+          </div>
+          <div class="contactus-info">
+            <h3>our location</h3>
+            <p>99 S.t Jomblo Park Pekanbaru 28292. Indonesia</p>
+          </div>
+        </article>
+        
+        <article>
+          <div class="icon bg-lightgray">
+            <img class="fc-blue icon-svg" src="../assets/phone-icon.svg" />
+          </div>
+          <div class="contactus-info">
+            <h3>phone number</h3>
+            <p>(+62)81 414 257 9980</p>
+          </div>
+        </article>
+        
+        <article>  
+          <div class="icon bg-lightgray">
+            <img class="fc-blue icon-svg" src="../assets/message-icon.svg" />
+          </div>
+          <div class="contactus-info">
+            <h3>email address</h3>
+            <p>info@yourdomain.com</p>
+          </div>
+        </article>
       </section>
 
       <section class="card message-container">
-        <img class="oval-figure" src="../assets/Oval.svg" />
+        <img id="oval-figure" class="figure" src="../assets/Oval.svg" />
         <img
           id="top-figure"
           class="figure"
@@ -58,13 +66,15 @@
           class="figure"
           src="../assets/Dotted Shape-2.svg"
         />
-        <form class="message-card">
-          <input type="text" placeholder="Your Name" />
-          <input type="email" placeholder="Your Email" />
-          <input type="phone" placeholder="Your Phone" />
-          <input type="text" placeholder="Your Message" />
-          <input type="submit" value="Send Message" />
-        </form>
+        <div class="message-card">
+          <form>
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Your Email" />
+            <input type="phone" placeholder="Your Phone" />
+            <textarea placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="bg-blue fc-white"/>
+          </form>
+        </div>
       </section>
     </main>
   </body>
