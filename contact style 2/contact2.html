@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="This the contact information" />
+    <meta name="keywords" content="contact card, page elements, html, css" />
+    <meta name="author" content="Carla Sanchez" />
+    <meta name="viewport" content="width=device-width, initial-escale=1.0" />
+    <link href="./contact2.css" rel="stylesheet" type="text/css" />
+    <link href="../utilities/style.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/fonts/Inter-VariableFont_slnt,wght.ttf" />
+  </head>
+  <body>
+    <main>
+      <section class="top">
+        <header>
+          <small>contact us</small>
+          <h1>Let's talk about your problem.</h1>
+        </header>
+        <section class="message-container">
+           <h2>Send us a Message</h2>
+           <article class="message">
+             <form>
+               <label for="name">Full Name*</label>
+               <input required id="name" type="text" placeholder="Adam Gelius" />
+               <div class="line"></div>
+
+               <label for="email">Email*</label>
+               <input required id="email" type="email" placeholder="example@yourmail.com" />
+               <div class="line"></div>
+
+               <label for="phone">Phone*</label>
+               <input required id="phone" type="phone" placeholder="+885 1254 5211 552" />
+               <div class="line"></div>
+
+               <label for="message">Message*</label>
+               <input type="text" required id="message" placeholder="Type your message here"/>
+               <div class="line"></div>
+
+               <input type="submit" value="Send" class="bg-blue fc-white" />
+             </form>
+           </article>
+        </section>
+      </section>
+
+      <section class="bottom">
+         <article class="ourinformation">
+            <article>
+              <div class="icon">
+                <img class="fc-blue icon-svg" src="../assets/location.svg" />
+              </div>
+              <div class="contactus-info">
+                <h3>our location</h3>
+                <p>401 Broadway, 24th Floor, Orchard Cloud View, London</p>
+              </div>
+            </article>
+    
+            <article>
+              <div class="icon">
+                <img class="fc-blue icon-svg" src="../assets/message-icon.svg" />
+              </div>
+              <div class="contactus-info">
+                <h3>how can we help</h3>
+                <p>info@yourdomain.com</p>
+              </div>
+            </article>
+         </article>
+      </section>
+    </main>
+  </body>
+</html>
