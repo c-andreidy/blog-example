@@ -97,6 +97,13 @@ input::placeholder {
   font-family: Inter;
 }
 
+input:focus {
+   outline-width: 0;
+   border-bottom: 1px solid #3056D3;;
+}
+
+
+
 
 [type="submit"] {
   cursor: pointer;

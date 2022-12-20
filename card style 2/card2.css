@@ -1,0 +1,87 @@
+main {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  box-sizing: border-box;
+  gap: 30px 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  width: 570px;
+  background-color: #F2F5FC;
+  box-sizing: border-box;
+  height: fit-content;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 36px 32px;
+  box-sizing: border-box;
+  position: relative;
+}
+.shape {
+  /* top:214px;
+  left: 302px; */
+  bottom: 7px;
+  right: 2px;
+  width: 21.42px;
+  height: 29.69px;
+  position: absolute;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  width: 260px;
+}
+p {
+  width: 260px;
+  padding: 12px 0 20px 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.viewDetails {
+   border-radius: 30px;
+   border: 1px solid #3056D3;
+   cursor: pointer;
+   display: flex;
+   box-sizing: border-box;
+   margin: auto;
+   padding: 7px 23px;
+   width: fit-content;
+   }
+
+a {
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #3056D3;
+
+}
+
+.viewDetails:hover {
+   background-color: #3056D3;
+}
+
+.viewDetails:hover a {
+   color: #ffffff;
+}
