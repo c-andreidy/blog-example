@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+}
+
+main {
+  background-color: #3056d3;
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: 150px;
+
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 130px;
+  color: #ffffff;
+}
+h3 {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 8px 0 12px;
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+}
+button {
+  width: fit-content;
+  height: 50px;
+  padding: 13px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 35px;
+  border: 1px solid #FFFFFF;
+  border-radius: 7px;
+  overflow: hidden;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.0);
+}
+button:hover{
+   opacity: .9;
+   cursor: pointer;
+
+}
+.lateral {
+  width: 30%;
+  margin: 0;
+}
+
+.central {
+  width: 18%;
+  margin-right: 2%;
+}
+#central-first {
+  margin: 0 0 0 2%;
+}
+.top-degraded {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.08) 0%,
+    rgba(196, 196, 196, 0) 100%
+  );
+}
+
+.bottom-degraded {
+  background: linear-gradient(
+    180deg,
+    rgba(196, 196, 196, 0) 0%,
+    rgba(255, 255, 255, 0.08) 100%
+  );
+}
