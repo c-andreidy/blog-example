@@ -90,9 +90,7 @@ button {
    color: #ffffff;
 }
 
-button:hover{
+button:hover, .close-img:hover{
    cursor: pointer;
-
-
-
+   opacity: .9;
 }
